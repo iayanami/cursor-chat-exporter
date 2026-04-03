@@ -1,0 +1,9 @@
+{
+  "name": "gramps-ts-tools",
+  "private": true,
+  "type": "module",
+  "description": "Cursor chat export scripts to HTML and Word-friendly HTML",
+  "dependencies": {
+    "better-sqlite3": "^11.6.0"
+  }
+}
