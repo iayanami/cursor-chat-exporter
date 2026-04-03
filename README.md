@@ -29,30 +29,6 @@ It is built for practical usage: local backups, documentation, reports, and clea
 
 ---
 
-## UI Languages
-
-Default UI language: **English**
-
-Available language set includes top world languages:
-
-- 🇬🇧 English
-- 🇨🇳 Chinese
-- 🇪🇸 Spanish
-- 🇮🇳 Hindi
-- 🇸🇦 Arabic
-- 🇫🇷 French
-- 🇵🇹 Portuguese
-- 🇷🇺 Russian
-- 🇯🇵 Japanese
-- 🇩🇪 German
-- 🇰🇷 Korean
-- 🇮🇹 Italian
-- 🇹🇷 Turkish
-- 🇻🇳 Vietnamese
-- 🇮🇩 Indonesian
-
----
-
 ## Requirements
 
 | Requirement | Version / Notes |
@@ -79,32 +55,15 @@ install_dependencies.bat
 
 ### 2) Run your preferred export mode
 
-- Version 1: `run_export_cursor_chat.bat`
-- Version 2: `run_export_cursor_chat_from_user.bat`
+- Version 1: `run_export_cursor_chat_from_user.bat`
+- Version 2: `run_export_cursor_chat.bat`
 - Version 3: `run_export_cursor_chat_manual.bat`
 
 ---
 
 ## Export Modes (Detailed)
 
-### Version 1 - Local folder mode
-
-Run:
-
-```bat
-run_export_cursor_chat.bat
-```
-
-This mode searches local project folders:
-
-- `globalStorage`
-- `workspaceStorage`
-
-Best when you copied Cursor storage folders next to this exporter.
-
----
-
-### Version 2 - Auto profile mode
+### Version 1 - Auto profile mode
 
 Run:
 
@@ -128,6 +87,23 @@ If needed, debug detection:
 ```bash
 node export-cursor-chat-from-user.js --debug
 ```
+
+---
+
+### Version 2 - Local folder mode
+
+Run:
+
+```bat
+run_export_cursor_chat.bat
+```
+
+This mode searches local project folders:
+
+- `globalStorage`
+- `workspaceStorage`
+
+Best when you copied Cursor storage folders next to this exporter.
 
 ---
 
@@ -215,20 +191,13 @@ Export still completes successfully. Open this file manually:
 
 - Confirm Cursor data exists in expected folders
 - Ensure Cursor was used on this machine/user profile
-- Try Version 2 or Version 3 path-based mode
+- Try Version 1 or Version 3 path-based mode
 
 ---
 
-## GitHub Publish Checklist
+## UI Languages
 
-- Remove private/generated files in `cursor-chat-exports/`
-- Ensure no personal data is accidentally included
-- Keep source only (`*.js`, `*.bat`, `README.md`, config templates)
-- Commit with clean history and clear message
+Default UI language: **English**
 
----
-
-## License
-
-Add your preferred license (`MIT` recommended for open-source utility tooling).
+🇬🇧 🇨🇳 🇪🇸 🇮🇳 🇸🇦 🇫🇷 🇵🇹 🇷🇺 🇯🇵 🇩🇪 🇰🇷 🇮🇹 🇹🇷 🇻🇳 🇮🇩
 
