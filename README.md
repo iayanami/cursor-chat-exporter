@@ -164,8 +164,8 @@ Key outputs:
 | `export-cursor-chat-to-word.js` | Main export engine |
 | `export-cursor-chat-from-user.js` | Auto user profile wrapper |
 | `export-cursor-chat-manual.js` | Manual config wrapper |
-| `run_export_cursor_chat.bat` | Version 1 runner |
-| `run_export_cursor_chat_from_user.bat` | Version 2 runner |
+| `run_export_cursor_chat_from_user.bat` | Version 1 runner |
+| `run_export_cursor_chat.bat` | Version 2 runner |
 | `run_export_cursor_chat_manual.bat` | Version 3 runner |
 | `cursor-exporter.config.json` | Optional shared config |
 | `cursor-exporter.manual.config.json` | Manual mode config |
@@ -199,5 +199,5 @@ Export still completes successfully. Open this file manually:
 
 Default UI language: **English**
 
-🇬🇧 🇨🇳 🇪🇸 🇮🇳 🇸🇦 🇫🇷 🇵🇹 🇷🇺 🇯🇵 🇩🇪 🇰🇷 🇮🇹 🇹🇷 🇻🇳 🇮🇩
+![GB](https://flagcdn.com/20x15/gb.png) ![CN](https://flagcdn.com/20x15/cn.png) ![ES](https://flagcdn.com/20x15/es.png) ![IN](https://flagcdn.com/20x15/in.png) ![SA](https://flagcdn.com/20x15/sa.png) ![FR](https://flagcdn.com/20x15/fr.png) ![PT](https://flagcdn.com/20x15/pt.png) ![RU](https://flagcdn.com/20x15/ru.png) ![JP](https://flagcdn.com/20x15/jp.png) ![DE](https://flagcdn.com/20x15/de.png) ![KR](https://flagcdn.com/20x15/kr.png) ![IT](https://flagcdn.com/20x15/it.png) ![TR](https://flagcdn.com/20x15/tr.png) ![VN](https://flagcdn.com/20x15/vn.png) ![ID](https://flagcdn.com/20x15/id.png)
 
